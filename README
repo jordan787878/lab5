@@ -1,0 +1,33 @@
+HugeInt class 
+ data
+ -int array to store huge number
+ -information about digit 
+
+ method
+ -operator= for assign
+ -operator+ for add algorithm
+ -operator- for minus algorithm
+ -overloaded constructor for different type of argument
+ -cout << operator
+ -cin >> operator
+
+Main Spirit
+
+ if the HugeInt is "31415"
+ then the int array arrangement is :
+ array[0] = 5 
+ array[1] = 1
+ array[2] = 4
+ array[3] = 1
+ array[4] = 3
+ and the sitnumber is 5.
+
+ For the operator+ alogorithm
+ it is simple that I add relative arrayleft[i] with arrayright[i]
+ respectively, then check if each of them >= 10.
+
+ For the operator- alogorithm
+ I do it just as the add alogorithm, but this time I need to check
+ if any result[i] < 0.
+
+ 
